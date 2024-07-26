@@ -116,7 +116,7 @@ section{
     line-height: 72px;
 }
 .child-anasayfa h1 .span-child{
-    color: #ef2b2bc9;
+    color: #ea5e5ec9;
 }
 
 .child-anasayfa p{
@@ -151,7 +151,7 @@ section{
     flex-wrap: wrap;
 }
 
-.yazilimlar .upper-yazilimlar h2{
+.upper-yazilimlar h2{
 color: white;
 font-size: 35px;
 padding: 5px 740px;
@@ -160,7 +160,7 @@ margin-top: 50px;
 transition: all .5s ease-in-out;
 }
 
-.yazilimlar .upper-yazilimlar h2:hover{
+.upper-yazilimlar h2:hover{
     background-color: #24CAAC;
 }
 
@@ -171,7 +171,6 @@ transition: all .5s ease-in-out;
     justify-content: space-evenly;
     margin: 0 auto;
     color: white;
-    flex-wrap: wrap;
 }
 
 .yazilimlar .inner-yazilimlar .child-yazilimlar .baslik-child-yazilimlar{
@@ -201,7 +200,7 @@ transition: all .5s ease-in-out;
 .yazilimlar .inner-yazilimlar .child-yazilimlar{
     transition: all .4s ease-in-out;
     background: #273c4d6e;
-    margin: 0 10px; /* Kenar boşluklarını ayarlayın */
+    margin: 0 10px;
 }
 
 .yazilimlar .inner-yazilimlar .child-yazilimlar:hover{
@@ -216,6 +215,7 @@ transition: all .5s ease-in-out;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .sertifika .upper-sertifika h2{
@@ -236,5 +236,139 @@ transition: all .5s ease-in-out;
         width: 80%;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto; 
     }
+
+
+    .sertifika .inner-sertifika .child-sertifika{
+        background: #273c4d6e;
+        flex-basis: 20%;
+        padding: 20px 10px 5px 10px;
+        border: 1px solid transparent;
+        transition: .3s;
+        border-radius: 10px;
+    }
+    
+    .sertifika .inner-sertifika .child-sertifika:hover{
+        border: 1px solid #24CAAC;
+    }
+
+    .sertifika .inner-sertifika .child-sertifika .bottom-sertifika{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sertifika .inner-sertifika .child-sertifika .bottom-sertifika p{
+        color: white;
+    }
+
+    .sertifika .inner-sertifika .child-sertifika .bottom-sertifika ul{
+        display: flex;
+        color: rgb(255, 234, 0);
+    }
+    .sertifika .inner-sertifika .child-sertifika .bottom-sertifika ul li{
+        padding-left: 3px;
+    }
+
+    .child-sertifika h3{
+        color: white;
+    }
+
+/* başarılar */
+
+.inner-basarilar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Ekranın yüzde sekseni di*/
+    width: 80%;
+
+    margin: 0 auto;
+}
+.inner-basarilar .child-basarilar{
+    flex-basis: 40%;
+}
+.inner-basarilar .child-basarilar img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.inner-basarilar .child-2-basarilar{
+    flex-basis: 42%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    /* textleri oratalamak için*/
+    text-align: center;
+}
+
+.inner-basarilar .child-2-basarilar .single-detail{
+flex-basis: 48%; 
+padding: 40px 30px;
+border-radius: 10px;
+transition: all .3s ease-in-out;
+}
+
+.inner-basarilar .child-2-basarilar .single-detail:hover{
+    transform: scale(1.1);
+}
+
+.inner-basarilar .child-2-basarilar .sd_1{
+    background-color: #EAA023;
+    margin-bottom: 15px;
+}
+.inner-basarilar .child-2-basarilar .sd_2{
+    background-color: #E91e63;
+    margin-bottom: 15px;
+}
+.inner-basarilar .child-2-basarilar .sd_3{
+      background-color: #24CAAC;
+}
+.inner-basarilar .child-2-basarilar .sd_4{
+    background-color: #ae7dba;
+}
+
+
+
+
+/* ------HAKKIMDA---------*/
+
+
+.inner-hakkimda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.inner-hakkimda .child-hakkimda{
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+    flex-basis: 49%;
+}
+
+.inner-hakkimda .child-hakkimda .img-hakkimda img{
+    border-radius: 50%;
+    width: 100%;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.inner-hakkimda .child-hakkimda p{
+    color: white;
+}
+
+.colored-name{
+    color: #24CAAC;
+    font-weight: 500;
+    display: inline-block;
+}
 
