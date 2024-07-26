@@ -1,0 +1,205 @@
+html{
+    /* Geçişler yumuşak olması açısından*/
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: #122e44;
+}
+
+.section .section-title{
+    margin-bottom: 30px;
+}
+.section .section-title h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.section .section-title h2:hover{
+    background-color: #147563c9;
+}
+
+ /* -----------------------HEADER------------------------*/
+
+ header{
+    background: rgb(44, 37, 37);
+
+    border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+
+    /* Sayfanın tepesine yapışır scroll ile birlikte gelir.*/
+    position: fixed;
+
+    width: 100%;
+
+    /* Sayfada 3. eksende yukarı çıkartır ve diğer elementleri itmesini engeller.*/
+    z-index: 5;
+ }
+
+
+.navbar{
+    display: flex;
+
+    /* İçindeki itemleri sağa sola sınırla*/
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 0px 6px;
+    width: 85%;
+
+    padding: 15px 0;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li a{
+    margin-right: 15px;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all .5s ease-in-out;
+}
+
+.nav-links li a:hover{
+    background-color: #147563c9;
+}
+
+.navbar .logo h2 a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    margin-left: 55px;
+}
+
+/* --------------------ANASAYFA---------*/
+
+.inner-anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    width: 80%;
+    color: white;
+}
+
+.child-anasayfa{
+    /* Kapsayıcının %45'ini kapatabilir bu content*/
+    flex-basis: 45%;
+}   
+
+.child-anasayfa h1{
+    font-size: 55px;
+    color: #25d3b3c9;
+    line-height: 60px;
+}
+.child-anasayfa h1 .span-child{
+    color: #ef2b2bc9;
+}
+
+.child-anasayfa p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.child-anasayfa .btn{
+    background: #24CAAC;
+    padding: 12px 30px;
+    border: 1px solid #24CAAC;
+    border-radius: 20px;    
+    transition: all .5s ease-in-out;
+}
+
+.child-anasayfa .btn a{
+    color: white;
+    font-weight: 700;
+}
+
+.child-anasayfa .btn:hover{
+    background: transparent;
+}
+
+/*-------YAZILIMLAR-------*/
+
+.yazilimlar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yazilimlar .upper-yazilimlar h2{
+color: white;
+font-size: 35px;
+padding: 5px 740px;
+margin-bottom: 40px;
+margin-top: 50px;
+transition: all .5s ease-in-out;
+}
+
+.yazilimlar .upper-yazilimlar h2:hover{
+    background-color: #24CAAC;
+}
+
+.yazilimlar .inner-yazilimlar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+.yazilimlar .inner-yazilimlar .child-yazilimlar .baslik-child-yazilimlar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.yazilimlar .inner-yazilimlar .child-yazilimlar .baslik-child-yazilimlar .icon{
+    padding: 0px 10px;
+    color: #24CAAC;
+    font-size: 30px;
+}
+.yazilimlar .inner-yazilimlar .child-yazilimlar .baslik-child-yazilimlar h3{
+    font-size: 22px;
+    color: white;
+}
+.yazilimlar .inner-yazilimlar .child-yazilimlar p{
+    color:white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.yazilimlar .inner-yazilimlar .child-yazilimlar{
+transition: all .4s ease-in-out;
+background: #273c4d6e;
+}
+
+.yazilimlar .inner-yazilimlar .child-yazilimlar:hover{
+    border: 1px solid #24CAAC;
+}
