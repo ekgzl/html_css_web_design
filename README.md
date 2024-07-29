@@ -4,6 +4,9 @@ This repository contains examples of modern web design using HTML and CSS. The i
 
 ![WebSite](https://github.com/user-attachments/assets/381fb266-ed34-4b97-85f9-78e9816fb24d)
 
+![Website-2](https://github.com/user-attachments/assets/11715261-2c09-4434-ae74-f28b8e4d5497)
+
+
 
 ## Table of Contents
 
