@@ -14,6 +14,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/js/main.js" />
 
     <title>New Portfolio Web Site</title>
   </head>
@@ -25,13 +27,16 @@
         </div>
 
         <ul class="nav-links">
-          <li><a href="#anasayfa">Ana Sayfa</a></li>
+          <li><a href="#anasayfa">Anasayfa</a></li>
           <li><a href="#yazilimlar">Yazılımlar</a></li>
           <li><a href="#sertifikalarim">Sertifikalarım</a></li>
           <li><a href="#basarilar">Başarılar</a></li>
           <li><a href="#hakkimda">Hakkımda</a></li>
           <li><a href="#iletisim">İletişim</a></li>
         </ul>
+      </div>
+      <div id="menu-bar">
+        <i class="fa fa-bars"></i>
       </div>
     </header>
 
@@ -101,7 +106,7 @@
     </section>
 
     <section id="sertifikalarim" class="sertifika">
-      <div class="upper-sertifika">
+      <div class="upper-yazilimlar">
         <h2>SERTİFİKALARIM</h2>
       </div>
 
@@ -256,5 +261,83 @@
         </div>
       </div>
     </section>
+    <!-- İLETİŞİM -->
+
+    <section id="iletisim">
+      <div class="upper-yazilimlar">
+        <h2>İLETİŞİM</h2>
+      </div>
+
+      <div class="inner-iletisim">
+        <div class="child-iletisim">
+          <img src="/img/contactt.png" alt="" />
+        </div>
+        <div class="child-iletisim">
+          <form action="#">
+            <input placeholder="İsim" type="text" name="fullname" id="" />
+            <input placeholder="Email" type="text" name="email" id="" />
+            <input placeholder="Telefon" type="text" name="telefon" id="" />
+            <textarea
+              placeholder=" Mesaj"
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Gönder" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="inner-footer">
+        <div class="child-footer">
+          <h3>Hakkımda</h3>
+          <p>Atılım Üniversitesi 3. Sınıf Öğrencisiyim.</p>
+          <ul class="footer-social">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="child-footer">
+          <h3>Linkler</h3>
+          <ul class="quick-links">
+            <li><a href="#anasayfa">Anasayfa</a></li>
+            <li><a href="#yazilimlar">Yazılımlar</a></li>
+            <li><a href="#sertifikalarim">Yazılımlar</a></li>
+            <li><a href="#basarilar">Başarılarım</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+          </ul>
+        </div>
+        <div class="child-footer">
+          <h3>İletişim</h3>
+          <ul class="footer-contact">
+            <li><i class="fa fa-map"></i> İncek/Ankara</li>
+            <li><i class="fa fa-phone"></i> 123456789</li>
+            <li><i class="fa fa-envelope"></i> enesgozuela@gmail.com</li>
+          </ul>
+        </div>
+        <div class="child-footer">
+          <h3>HABERLERE HIZLI ULAŞ</h3>
+          <form action="#" class="form-class">
+            <input type="email" name="email" id="" placeholder="Email" />
+            <input type="submit" value="Gönder" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
   </body>
 </html>
